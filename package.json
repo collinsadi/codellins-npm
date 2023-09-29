@@ -1,12 +1,28 @@
 {
   "name": "codellins",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "An Npm Package from Codellins aimed at making frontend development Easy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Collins Adi",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "keywords": [
+    "clipboard",
+    "cookie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collinsadi/codellins-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/collinsadi/codellins-npm"
+  },
+  "homepage": "https://github.com/collinsadi/codellins-npm",
+  "engines": {
+    "node": ">=18"
+  },
+  "type":"module"
 }
