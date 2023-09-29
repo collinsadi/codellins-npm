@@ -1,0 +1,12 @@
+{
+  "name": "codellins",
+  "version": "1.0.0",
+  "description": "An Npm Package from Codellins aimed at making frontend development Easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Collins Adi",
+  "license": "ISC"
+  
+}
