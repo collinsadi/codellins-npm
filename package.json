@@ -1,6 +1,6 @@
 {
   "name": "codellins",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "description": "An Npm Package from Codellins aimed at making frontend development Easy",
   "main": "index.js",
   "scripts": {

@@ -1,15 +1,14 @@
 # Installation
 
-codellins supports *npm* under the name **codellins**
+codellins supports _npm_ under the name **codellins**
 
 `npm i codellins`
-
 
 The Npm Package Supports ES Modules, allows you to setCookies getCookies removeCookie and many other functionalities
 
 Sure, here's a Markdown documentation template for your `codellins` npm package:
 
-```markdown
+````markdown
 # codellins NPM Package Documentation
 
 ## Introduction
@@ -25,6 +24,7 @@ npm install codellins
 # or
 yarn add codellins
 ```
+````
 
 Replace `'codellins'` with the actual name of your npm package.
 
@@ -43,9 +43,9 @@ Sets a cookie with the specified name, value, and optional expiration days.
 Example:
 
 ```javascript
-import codellins from 'codellins';
+import codellins from "codellins";
 
-codellins.Cookies.set('myCookie', 'cookieValue', 7);
+codellins.Cookies.set("myCookie", "cookieValue", 7);
 ```
 
 #### `Cookies.get(cookieName)`
@@ -57,9 +57,9 @@ Retrieves the value of a cookie by its name.
 Example:
 
 ```javascript
-import codellins from 'codellins';
+import codellins from "codellins";
 
-const value = codellins.Cookies.get('myCookie');
+const value = codellins.Cookies.get("myCookie");
 ```
 
 #### `Cookies.remove(name)`
@@ -71,9 +71,9 @@ Removes a cookie by its name.
 Example:
 
 ```javascript
-import codellins from 'codellins';
+import codellins from "codellins";
 
-codellins.Cookies.remove('myCookie');
+codellins.Cookies.remove("myCookie");
 ```
 
 ### Clipboard
@@ -87,9 +87,9 @@ Writes the specified text to the clipboard.
 Example:
 
 ```javascript
-import codellins from 'codellins';
+import codellins from "codellins";
 
-codellins.Clipboard.write('Hello, clipboard!');
+codellins.Clipboard.write("Hello, clipboard!");
 ```
 
 #### `Clipboard.read()`
@@ -99,11 +99,11 @@ Reads text from the clipboard asynchronously.
 Example:
 
 ```javascript
-import codellins from 'codellins';
+import codellins from "codellins";
 
 const readClipboard = async () => {
   const text = await codellins.Clipboard.read();
-  console.log('Clipboard content:', text);
+  console.log("Clipboard content:", text);
 };
 
 readClipboard();
@@ -116,20 +116,22 @@ This package is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 - Author: Collins Adi
-- GitHub: [GitHub Profile](https://github.com/codellins)
+- GitHub: [GitHub Profile](https://github.com/collinsadi/codellins)
 
 ## Contribution
 
-Contributions are welcome! If you'd like to contribute to this project, please submit a pull request.
+<!-- Contributions are welcome! If you'd like to contribute to this project, please submit a pull request. -->
+
+Contributions Would Be Open Soon Stay Tuned
 
 ## Issues
 
-If you encounter any issues or have questions about this package, please [open an issue](https://github.com/codellins/codellins/issues) on GitHub.
+If you encounter any issues or have questions about this package, please [open an issue](https://github.com/collinsadi/codellins/issues) on GitHub.
 
 ```
 
-Replace `'codellins'` with the actual name of your npm package and customize the documentation with additional information or examples as needed.
 
 This is the first Version More Features Rolling out Soon
 
 check me out on [Portfolio Website](https://https://collinsadi.vercel.app)
+```
