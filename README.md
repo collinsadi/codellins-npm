@@ -117,7 +117,7 @@ This package is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Author: Collins Adi
 - GitHub: [GitHub Profile](https://github.com/collinsadi/codellins)
-- Portfolio: [Portfolio Website](https://https://collinsadi.vercel.app)
+- Portfolio: [Portfolio Website](https://collinsadi.vercel.app)
 
 ## Contribution
 
