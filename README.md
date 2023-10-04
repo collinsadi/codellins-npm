@@ -21,12 +21,12 @@ Sure, here's a Markdown documentation template for your `codellins` npm package:
 To use `codellins` in your project, you can install it using npm or yarn:
 
 ```bash
-npm install your-package-name
+npm install codellins
 # or
-yarn add your-package-name
+yarn add codellins
 ```
 
-Replace `'your-package-name'` with the actual name of your npm package.
+Replace `'codellins'` with the actual name of your npm package.
 
 ## Usage
 
@@ -43,7 +43,7 @@ Sets a cookie with the specified name, value, and optional expiration days.
 Example:
 
 ```javascript
-import codellins from 'your-package-name';
+import codellins from 'codellins';
 
 codellins.Cookies.set('myCookie', 'cookieValue', 7);
 ```
@@ -57,7 +57,7 @@ Retrieves the value of a cookie by its name.
 Example:
 
 ```javascript
-import codellins from 'your-package-name';
+import codellins from 'codellins';
 
 const value = codellins.Cookies.get('myCookie');
 ```
@@ -71,7 +71,7 @@ Removes a cookie by its name.
 Example:
 
 ```javascript
-import codellins from 'your-package-name';
+import codellins from 'codellins';
 
 codellins.Cookies.remove('myCookie');
 ```
@@ -87,7 +87,7 @@ Writes the specified text to the clipboard.
 Example:
 
 ```javascript
-import codellins from 'your-package-name';
+import codellins from 'codellins';
 
 codellins.Clipboard.write('Hello, clipboard!');
 ```
@@ -99,7 +99,7 @@ Reads text from the clipboard asynchronously.
 Example:
 
 ```javascript
-import codellins from 'your-package-name';
+import codellins from 'codellins';
 
 const readClipboard = async () => {
   const text = await codellins.Clipboard.read();
@@ -124,11 +124,11 @@ Contributions are welcome! If you'd like to contribute to this project, please s
 
 ## Issues
 
-If you encounter any issues or have questions about this package, please [open an issue](https://github.com/codellins/your-package-name/issues) on GitHub.
+If you encounter any issues or have questions about this package, please [open an issue](https://github.com/codellins/codellins/issues) on GitHub.
 
 ```
 
-Replace `'your-package-name'` with the actual name of your npm package and customize the documentation with additional information or examples as needed.
+Replace `'codellins'` with the actual name of your npm package and customize the documentation with additional information or examples as needed.
 
 This is the first Version More Features Rolling out Soon
 
